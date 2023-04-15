@@ -13,3 +13,11 @@ function fuzzyMatch(names,string){
         }
     } return driverMatch
 }
+function matchName(objects, string){
+    const driverInfo = [];
+    for (const drivers of objects){
+        if (string=drivers){
+            driverInfo.push(objects)
+        }
+    } return driverInfo
+}
